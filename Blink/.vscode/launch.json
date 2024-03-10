@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Jlink",
+      "cwd": "${workspaceFolder}",
+      "executable": "build/blink.elf",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "jlink",
+      "interface": "swd",
+      "serverpath": "JLinkGDBServerCLExe",
+      "device": "ATSAMD21G18A",
+      "svdPath": "ATSAMD21G18A.svd"
+    }
+  ]
+}
